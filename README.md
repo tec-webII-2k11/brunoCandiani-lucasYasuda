@@ -3,11 +3,11 @@
 
 Tema: Eventos Sociais
 
-Público-alvo: 
+Público-alvo: Qualquer promoter interessado em divulgar seus eventos e o público em geral que está a procura de diversão
 
 Objetivos do site: Promover eventos sociais
 
-Funcionalidades do site: 
+Funcionalidades do site: Divulgação de eventos, feedback sobre os eventos
 
 Usuário Administrador: Acesso para alterar, incluir, excluir postagens e comentários dos usuários logados
 
@@ -15,6 +15,6 @@ Usuário Logado: Visualização da página inicial da página, com acesso à inc
 
 Usuário Visitante: Visualização da página inicial da página, sem acesso à nenhuma interação com as postagens dos usuários logados
 
-Mapa de Navegação: 
+Mapa de Navegação: 1º O 
 
 Wireframe:
