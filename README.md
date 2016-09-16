@@ -1,11 +1,11 @@
 # brunoCandiani-lucasYasuda
 #Projeto do semestre
 
-Tema: 
+Tema: Eventos sociais
 
 Público-alvo: 
 
-Objetivos do site: 
+Objetivos do site: Promoção de festas, seus valores, atrações, etc.
 
 Funcionalidades do site: 
 
