@@ -1,16 +1,16 @@
 @charset "UTF-8";
-@font-face{
-	font-family: 'FonteLogo';
-	src: url(../_fonts/bubblegum-sans-regular.otf);
-}	
+
 	body{
-		background-color:#dddddd;
+		background-color:#ADD8E6;
+		font-family: Arial;
+		
 	}
 	p{
 		text-align:justify;
 		text-indent:50px;
 	}	
-	div#interface {
+	
+	#interface {
 		width: 1000px;
 		background-color: #ffffff;
 		margin: -20px auto 10px auto;
@@ -18,72 +18,65 @@
 		padding: 10px;
 	}
 	
-	header#cabecalho img#icone{
-		position:absolute;
-		left: 800px;
-		top: 50px;
-	}
+	/* Formatacao Cabecalho */
 	
-	header#cabecalho{
-		border-bottom: 1px #606060 solid;
+	#cabecalho{
+		border-bottom: 1.5px #00BFFF solid;
 		height: 150px;
-		background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+		background-color:none;
 	}
 	
-	header#cabecalho h1{
-		font-family: FonteLogo, sans-serif;
-		font-size: 30pt;
-		color: #606060;
-		text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-		padding:0px;
-		margin-bottom: 0px;
-	}
-	
-	header#cabecalho h2{
-		font-family: Arial, sans-serif;
-		color: #888888;
-		font-size: 15pt;
+	#cabecalho h2{
+		font-family: Tahoma;
+		color: #FF69B4;
+		font-size: 11pt;
 		padding:0px;
 		margin-top: 0px;
 	}
 	
-	/* Formatacao de imagens com legendas */
-	
-	figure.foto-legenda{
-			position: relative;
-			border: 8px solid white;
-			box-shadow: 1px 1px 4px black;
-	}
-	
-	figure.foto-legenda img{
-		width: 100%;
-		height: 100%;
-	}
-	
-	figure.foto-legenda figcaption{
-		opacity:0;
+	#login{
+		width:650px;
+		height:50px;
 		position: absolute;
-		top:0px;
-		background-color: rgba(0,0,0,.4);
-		color:white;
-		width: 100%;
-		height: 100%;
-		padding: 10px;
-		box-sizing: border-box;
-		transition: opacity 1s;
+		top: 40px;
+		left: 530px;
+		font-family: tahoma;
+		font-size: 18px;
 	}
 	
-	figure.foto-legenda:hover figcaption{
-		opacity:1;
+	hgroup#loginC{
+		width:650px;
+		position: absolute;
+		top: 90px;
+		left: 845px;
+		font-family: tahoma;
+		font-size: 13px;
+	}
+	hgroup#loginE{
+		width:650px;
+		position: absolute;
+		top: 55px;
+		left: 845px;
+		font-family: tahoma;
+		font-size: 13px;
 	}
 	
+	hgroup#loginC a{
+		color: #000000;
+		
+	}
+	
+	hgroup#loginE a{
+		color: #000000;
+		
+	}
 	/*Formatacao Menu*/
 	
-	nav#menu {
+	#menu {
 		display: block;
 	}
 	
-	nav#menu ul{
+	#menu ul{
 		list-style: none;
 		text-transform: uppercase;
 		position: absolute;
@@ -91,7 +84,7 @@
 		left: 500px;
 	}
 	
-	nav#menu li{
+	#menu li{
 		display: inline-block;
 		background-color: #dddddd;
 		padding: 10px;
@@ -99,52 +92,53 @@
 		transition: background-color 1s;
 	}
 	
-	nav#menu li:hover {
-		background-color: #606060;
+	#menu li:hover {
+		background-color: #00BFFF;
 	}
 	
-	nav#menu h1{
+	#menu h1{
 		display: none;
 	}
 	
-	nav#menu a{
+	#menu a{
 		color: #000000;
 		text-decoration: none;
 	}
 	
-	nav#menu a:hover {
+	#menu a:hover {
 		color: #ffffff;
 		text-decoration: underline;
 	}
 	
 	/*Formatacao do corpo */
 	
-	section#corpo{
+	#corpo{
 		display: block;
-		width: 600px;
+		width: 1000px;
 		float: left;	
-		border-right: 1px #606060 solid ;
-		padding-right: 25px
+		/*border-right: 1px #606060 solid*/ ;
+		padding-right: 0px;
+		background-color:none ;
 	}
 	
-	section#corpo img#imageindex{
-		
+	#corpo img#imageindex{
 	    width: 100%;
 		height: 100%;
 	}
+	
 
-	aside#lateral{
+	#lateral{
 		display: block;
 		width:350px;
 		float: right;
 	}
 	
-	footer#rodape{
+	#rodape{
 		clear: both;
-		border-top: 1px solid #606060;
+		border-top: 1.5px #FF69B4 solid;
 		
 	}
 	
-	footer#rodape p{
+	#rodape p{
 		text-align: center;
 	}

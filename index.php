@@ -5,6 +5,7 @@
 		<meta charset="UTF-8"/>
 		<title>Yassoni Party</title>
 		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="shortcut icon" href="favicon-32x32.png" >
 	</head>
 	
 	<body>
@@ -12,35 +13,43 @@
 		
 		<header id="cabecalho">
     		<hgroup>
-        		<h1>Yassoni Party</h1>
-        		<h2>Promoção de festas e eventos !</h2>
+        		<img src="logo1.png" height="100px" width="220px"></img>
+        		
+        		<h2>Promoção de festas e eventos!</h2>
     		</hgroup>
     
+  			<!-- <?php include "menu.inc" ?> -->
+    		
     	
-    		<nav id="menu">
-    			<h1>Menu Principal</h1>
-    			<ul>
-    				<li><a href="index.php">Home</a></li>
-    				<li><a href="">Opcao 2</a></li>
-    				<li><a href="">Opcao 3</a></li>
-    				<li><a href="">Opcao 4</a></li>
-    				<li><a href="">Contato</a></li>
-    			</ul>
-    		</nav>
+    		<form id="login">
+    				<label for="id"> Email: </label> <input type = "email" placeholder="Insira seu e-mail" for="id" size="30">
+    				<label for="senha"> Senha: </label> <input type = "password" placeholder="Insira sua senha" for="senha"> 
+    				<input type = "button" value="Entrar">
+    				
+    		</form>
+    		
+    		<hgroup id="loginC">
+    			<p><a href="">Cadastrar-se</a></p>
+    		</hgroup>
+    		
+    		<hgroup id="loginE">
+    			<p><a href="">Esqueci minha senha</a></p>
+    		</hgroup>
+    
 		</header>
 		
 		<section id="corpo">
-		    <h1>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão</h1>
+		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão</h2>
 		    <img id="imageindex" src="imageindex.jpg" alt="Festas"> 
-		    <h2>Faça já o seu cadastro !</h2>
+		    <h3>Faça já o seu cadastro!</h3>
 		</section>
 		
-		<aside id="lateral">
+		<!--<aside id="lateral">
 	
-		</aside>
+		</aside>-->
 		
 		<footer id="rodape">
-		    <p>by Bruno Squassoni & Lucas Yasuda <br>
+			<p> by Bruno Squassoni & Lucas Yasuda <br></p>
 		</footer>
 	</div>
 	</body>
