@@ -29,20 +29,24 @@
     		</form>
     		
     		<hgroup id="loginC">
-    			<p><a href="cadastro.php">Cadastrar-se</a></p>
+    			<p><a href="">Cadastrar-se</a></p>
     		</hgroup>
     		
     		<hgroup id="loginE">
-    			<p><a href="senha.php">Esqueci minha senha</a></p>
+    			<p><a href="">Esqueci minha senha</a></p>
     		</hgroup>
     
 		</header>
 		
 		<section id="corpo">
-		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão</h2>
-		    <img id="imageindex" src="imageindex.jpg" alt="Festas"> 
-		    <h3>Faça já o seu cadastro!</h3>
-		    <a href="feed.php">asdsa</h3>
+		    <form id="cad">
+		        <label for="nome"> Nome: </label> <input type = "text" for="nome" size="25"> <br><br>
+		        <label for="sobrenome"> Sobrenome: </label> <input type = "text" for="sobrenome" size="25"> <br><br>
+		        <label for="email"> Email: </label> <input type = "text" for="email" size="30"> <br><br>
+		        <label for="data"> Data de Nascimento: </label> <input type = "text" for="data" size="10"><br><br>
+		        <input type = "radio" for="mas" value="Masculino" name="sexo"><label for="mas"> Masculino</label> 
+		        <input type = "radio" for="fem" value="Feminino" name="sexo"><label for="fem">Feminino</label> 
+		    </form>
 		</section>
 		
 		<!--<aside id="lateral">
