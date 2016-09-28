@@ -70,6 +70,12 @@
 		color: #000000;
 		
 	}
+	
+	form#cad{
+		padding: 20px;
+		font-family: tahoma;
+		font-size: 17px;
+	}
 	/*Formatacao Menu*/
 	
 	#menu {
