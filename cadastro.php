@@ -13,7 +13,7 @@
 		
 		<header id="cabecalho">
     		<hgroup>
-        		<img src="logo1.png" height="100px" width="220px"></img>
+        		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
         		
         		<h2>Promoção de festas e eventos!</h2>
     		</hgroup>
@@ -29,23 +29,24 @@
     		</form>
     		
     		<hgroup id="loginC">
-    			<p><a href="">Cadastrar-se</a></p>
+    			<p><a href="cadastro.php">Cadastrar-se</a></p>
     		</hgroup>
     		
     		<hgroup id="loginE">
-    			<p><a href="">Esqueci minha senha</a></p>
+    			<p><a href="senha.php">Esqueci minha senha</a></p>
     		</hgroup>
     
 		</header>
 		
 		<section id="corpo">
 		    <form id="cad">
-		        <label for="nome"> Nome: </label> <input type = "text" for="nome" size="25"> <br><br>
+		        <label for="nome"> Nome: </label> <input type = "text" for="nome" size="31"> <br><br>
 		        <label for="sobrenome"> Sobrenome: </label> <input type = "text" for="sobrenome" size="25"> <br><br>
-		        <label for="email"> Email: </label> <input type = "text" for="email" size="30"> <br><br>
-		        <label for="data"> Data de Nascimento: </label> <input type = "text" for="data" size="10"><br><br>
+		        <label for="email"> Email: </label> <input type = "text" for="email" size="31"> <br><br>
+		        <label for="data"> Data de Nascimento: </label> <input type = "text" for="data" size="15"><br><br>
 		        <input type = "radio" for="mas" value="Masculino" name="sexo"><label for="mas"> Masculino</label> 
-		        <input type = "radio" for="fem" value="Feminino" name="sexo"><label for="fem">Feminino</label> 
+		        <input type = "radio" for="fem" value="Feminino" name="sexo"><label for="fem">Feminino</label><br><br>
+		        <input type="submit" value="Cadastrar">
 		    </form>
 		</section>
 		

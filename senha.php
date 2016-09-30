@@ -14,6 +14,7 @@
 		<header id="cabecalho">
     		<hgroup>
         		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
+        		
         		<h2>Promoção de festas e eventos!</h2>
     		</hgroup>
     
@@ -38,11 +39,10 @@
 		</header>
 		
 		<section id="corpo">
-		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão</h2>
-		    <img id="imageindex" src="imageindex.jpg" alt="Festas"> 
-		    <h3>Faça já o seu cadastro!</h3>
-		    <a href="feed.php">asdsa</a>
-		    
+		    <form id="cad">
+		        <label for="email"> Digite seu Email: </label> <input type = "text" for="email" size="31"> <br><br>
+		        <input type="submit" value="Recuperar senha">
+		    </form>
 		</section>
 		
 		<!--<aside id="lateral">

@@ -13,7 +13,7 @@
 		
 		<header id="cabecalho">
 			<hgroup>
-				<img src="logo1.png" height="100px" width="220px"></img>
+        		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
 			</hgroup>
 
 				<?php include "menu.inc" ?>

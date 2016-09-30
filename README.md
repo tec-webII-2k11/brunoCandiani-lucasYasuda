@@ -15,6 +15,6 @@ Usuário Logado: Visualização da página inicial da página, com acesso à inc
 
 Usuário Visitante: Visualização da página inicial da página, sem acesso à nenhuma interação com as postagens dos usuários logados
 
-Mapa de Navegação: 
+Mapa de Navegação: [mapa](https://yassoniparty-squassoni.c9users.io/mapa.html)
 
 Wireframe:
