@@ -42,8 +42,10 @@
 		    <form id="cad">
 		        <label for="nome"> Nome: </label> <input type = "text" for="nome" size="31"> <br><br>
 		        <label for="sobrenome"> Sobrenome: </label> <input type = "text" for="sobrenome" size="25"> <br><br>
-		        <label for="email"> Email: </label> <input type = "text" for="email" size="31"> <br><br>
 		        <label for="data"> Data de Nascimento: </label> <input type = "text" for="data" size="15"><br><br>
+		        <label for="email"> Email: </label> <input type = "text" for="email" size="31"> <br><br>
+		        <label for="password"> Digite sua senha: </label> <input type="password" for "password"> <br><br>
+		        <label for="passwordrep"> Repita sua senha: </label> <input type="password" for "passwordrep"> <br><br>
 		        <input type = "radio" for="mas" value="Masculino" name="sexo"><label for="mas"> Masculino</label> 
 		        <input type = "radio" for="fem" value="Feminino" name="sexo"><label for="fem">Feminino</label><br><br>
 		        <input type="submit" value="Cadastrar">

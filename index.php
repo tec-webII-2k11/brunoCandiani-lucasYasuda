@@ -38,10 +38,12 @@
 		</header>
 		
 		<section id="corpo">
-		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão</h2>
+		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão!</h2>
 		    <img id="imageindex" src="imageindex.jpg" alt="Festas"> 
-		    <h3>Faça já o seu cadastro!</h3>
-		    <a href="feed.php">asdsa</a>
+		    <h4>A Yassoni é a plataforma certa pra você encontrar novos lugares para ir, conhecer novos amigos, e amores!</h4>
+		    <h4>Baladas? Shows? Aqui você encontra o que procura! Faça já seu cadastro! </h4>
+		    
+		    <a href="feed.php">Caminho temporário para o feed</a><br>
 		    
 		</section>
 		
