@@ -20,9 +20,9 @@
   			<!-- <?php include "menu.inc" ?> -->
     		
     	
-    		<form id="login">
-    				<label for="id"> Email: </label> <input type = "email" placeholder="Insira seu e-mail" for="id" size="30">
-    				<label for="senha"> Senha: </label> <input type = "password" placeholder="Insira sua senha" for="senha"> 
+    		<form id="login" action="login.php" method="POST">
+    				<label for="id"> Email: </label> <input type = "email" placeholder="Insira seu e-mail" name="id" for="id" size="30">
+    				<label for="senha"> Senha: </label> <input type = "password" placeholder="Insira sua senha" name="senha" for="senha"> 
     				<input type = "submit" value="Entrar">
     				
     		</form>

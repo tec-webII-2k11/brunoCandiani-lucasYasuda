@@ -92,8 +92,8 @@
 		list-style: none;
 		text-transform: uppercase;
 		position: absolute;
-		top: -20px;
-		left: 500px;
+		top: -20px; /* Teste em -3% resultou em menu subindo além da tela em uma resolução de 1920 x 1080, e semelhante aos -20px em uma tela de 1366 x 768 */
+		left: 38%; /* 38% ficou OK, o mesmo que os 500px */
 	}
 	
 	#menu li{
@@ -248,12 +248,15 @@
 		background:#000;
 		
 	}
-	
+
 	#corpofeed .sextfoto{
 		width:300px;
 		height:200px;
 		border-radius:10%;
 		border:1px solid #000;
 		background:#000;
-		
+	
 	}
+
+	/*Formatação página de post de evento */
+	
