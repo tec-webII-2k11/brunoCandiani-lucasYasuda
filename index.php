@@ -43,8 +43,6 @@
 		    <h4>A Yassoni é a plataforma certa pra você encontrar novos lugares para ir, conhecer novos amigos, e amores!</h4>
 		    <h4>Baladas? Shows? Aqui você encontra o que procura! Faça já seu cadastro! </h4>
 		    
-		    <a href="feed.php">Caminho temporário para o feed</a><br>
-		    
 		</section>
 		
 		<!--<aside id="lateral">

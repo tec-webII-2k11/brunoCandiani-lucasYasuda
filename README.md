@@ -17,4 +17,4 @@ Usuário Visitante: Visualização da página inicial da página, sem acesso à 
 
 Mapa de Navegação: [mapa](https://yassoniparty-squassoni.c9users.io/mapa.html)
 
-Wireframe:
+Wireframe: [wireframe](https://yassoniparty-squassoni.c9users.io/wireframe.html)

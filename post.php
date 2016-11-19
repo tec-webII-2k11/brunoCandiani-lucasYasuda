@@ -11,11 +11,12 @@
 	
 	<body>
 	<?php include "sessao.php"; ?>
+
 	<div id="interface">
 		
 		<header id="cabecalho">
     		<hgroup>
-        		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
+        		<a href="feed.php"><img src="logo1.png" height="100px" width="220px"></img></a>
     		</hgroup>
     
   		 <?php include "menu.inc" ?> 
@@ -23,18 +24,20 @@
 		</header>
 		
 		<section id="corpopost">
-		   	<form id="post">
+		   	<form id="post" enctype="multipart/form-data" action='postar.php' method='POST'>
 		   		<br>
-		   		<label for="titulopost"></label>Título: <br> <input type="text" placeholder="Insira o título do evento" for="titulopost" size="50" name="titulopost"><br><br>
-		   		<label for="descricaopost"></label>Descrição <br> <textarea for="descricaopost" cols="120" rows="15" placeholder="Insira uma descrição do seu evento" name="descricaopost"></textarea><br><br>
-		   		<p>Insira algumas imagens!</p>
-		   		<label for="fotopost1"></label> <input type="file" for="fotopost1" name=fotopost1><br><br>
-		   		<label for="fotopost2"></label> <input type="file" for="fotopost2" name="fotopost2"><br><br>
-		   		<label for="fotopost3"></label> <input type="file" for="fotopost3" name="fotopost3"><br><br><br>
-		   		<label for="valorpost">Valor entrada: </label> <input type="text" for="valorpost" placeholder="R$" name="valorpost"><br>
-		   		<label for="localpost">Local do evento: </label> <input type="value" for="localpost" placeholder="Ex: Av. Brasil, 528" name="localpost"><br>
-		   		<label for="datapost">Data do evento: </label> <input type="date" for="datapost" name="datapost"><br><br>
+		   		<label for="titulo"></label>Título: <br> <input type="text" placeholder="Insira o título do evento" for="titulo" size="50" name="titulo"><br><br>
+		   		<label for="descricao"></label>Descrição <br> <textarea for="descricao" cols="120" rows="15" placeholder="Insira uma descrição do seu evento" name="descricao"></textarea><br><br>
+		   		<label for="foto"> Foto: </label>
+		        <input type="hidden" name="MAX_SIZE_FILE" value="100000"> <br />
+				<input type="file" name="ARQUIVO" id="arquivo"> <br /><br>
+		   		<label for="valor">Valor entrada: </label> <input type="text" for="valor" placeholder="R$" name="valor"><br>
+		   		<label for="local">Local do evento: </label> <input type="value" for="local" placeholder="Ex: Av. Brasil, 528" name="local"><br>
+		   		<label for="data">Data do evento: </label> <input type="text" for="data" placeholder="00/00/0000"name="data"><br><br>
+		   		<input type="hidden" value= "<?php echo $usuario;?>" name="email">
 		   		<input type="submit" for="submitpost" value="Publicar Evento">
+		   		
+		   		
 		   		<br>
 		   		<br>
 		   	</form>

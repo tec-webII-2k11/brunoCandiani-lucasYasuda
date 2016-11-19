@@ -15,7 +15,7 @@
 		
 		<header id="cabecalho">
     		<hgroup>
-        		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
+        		<a href="feed.php"><img src="logo1.png" height="100px" width="220px"></img></a>
     		</hgroup>
     
   		 <?php include "menu.inc" ?> 
