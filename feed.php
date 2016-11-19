@@ -37,7 +37,6 @@
 			
 				$resultado = mysqli_query($conexao,$sql) or die ("Não consigo executar a query:".mysqli_erro());
 				
-				
 				if($resultado){
 				    while ($row = mysqli_fetch_array($resultado)){
 	
