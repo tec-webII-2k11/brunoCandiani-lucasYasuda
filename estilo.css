@@ -76,6 +76,12 @@
 		font-family: tahoma;
 		font-size: 17px;
 	}
+	
+	.propagcad {
+		font-family: Tahoma;
+		font-size: 15px;
+	}
+	
 	/*Formatacao Menu*/
 	
 	#menu {
@@ -86,8 +92,8 @@
 		list-style: none;
 		text-transform: uppercase;
 		position: absolute;
-		top: -20px;
-		left: 500px;
+		top: -20px; /* Teste em -3% resultou em menu subindo além da tela em uma resolução de 1920 x 1080, e semelhante aos -20px em uma tela de 1366 x 768 */
+		left: 38%; /* 38% ficou OK, o mesmo que os 500px */
 	}
 	
 	#menu li{
@@ -127,6 +133,14 @@
 		background-color:none ;
 	}
 	
+	#corpo h2 {
+		font-family: Tahoma;
+	}
+	
+	#corpo h4 {
+		font-family: Tahoma;
+	}
+	
 	#corpo img#imageindex{
 	    width: 100%;
 		height: 100%;
@@ -142,9 +156,69 @@
 	#rodape{
 		clear: both;
 		border-top: 1.5px #FF69B4 solid;
-		
-	}
+		}
 	
 	#rodape p{
 		text-align: center;
+	}
+	
+	/*Formatação Corpo Feed */
+	
+	#corpofeed p {
+		font-size: 14px;
+		font-family: Tahoma;
+		margin-top: 10px;
+	}
+	
+	#corpofeed .nomeperf {
+		font-size: 18px;
+		padding-left: 30px;
+		margin-top: -35px;
+		font-family: Tahoma;
+		position: absolute;
+	}
+	
+	#corpofeed .fotoperf {
+		width:50px;
+		height:50px;
+		border-radius:50%;
+		border:2px solid #000;
+		background:#000;
+		margin-top:10px;
+		
+	}
+
+	#corpofeed .data {
+		font-family: Tahoma;
+		font-weight: bold;
+	}
+	
+	#corpofeed .local {
+		font-family: Tahoma;
+		font-weight: bold;
+		
+	}
+	
+	#corpofeed .valor {
+		font-family: Tahoma;
+		font-weight: bold;
+	}
+	
+	#corpofeed .foto{
+		width:300px;
+		height:200px;
+		border-radius:10%;
+		border:1px solid #000;
+		background:#000;
+		margin-left:5%;
+		}
+		
+	#corpofeed .titulo {
+		font-weight: bold;
+		font-size:20px;
+		margin-left:3%;
+	}
+	
+	#corpofeed .descricao {
+		margin-left:3%;
 	}

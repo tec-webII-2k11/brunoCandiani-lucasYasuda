@@ -14,15 +14,16 @@
 		<header id="cabecalho">
     		<hgroup>
         		<a href="index.php"><img src="logo1.png" height="100px" width="220px"></img></a>
+        		
         		<h2>Promoção de festas e eventos!</h2>
     		</hgroup>
     
   			<!-- <?php include "menu.inc" ?> -->
     		
     	
-    		<form id="login" action="login.php" method="POST">
-    				<label for="id"> Email: </label> <input type = "email" placeholder="Insira seu e-mail" name="id" for="id" size="30">
-    				<label for="senha"> Senha: </label> <input type = "password" placeholder="Insira sua senha" name="senha" for="senha"> 
+    		<form id="login">
+    				<label for="id"> Email: </label> <input type = "email" placeholder="Insira seu e-mail" for="id" size="30">
+    				<label for="senha"> Senha: </label> <input type = "password" placeholder="Insira sua senha" for="senha"> 
     				<input type = "submit" value="Entrar">
     				
     		</form>
@@ -38,11 +39,10 @@
 		</header>
 		
 		<section id="corpo">
-		    <h2>Aqui você poderá promover a sua festa e também encontrar diversos outros eventos para sua diversão!</h2>
-		    <img id="imageindex" src="imageindex.jpg" alt="Festas"> 
-		    <h4>A Yassoni é a plataforma certa pra você encontrar novos lugares para ir, conhecer novos amigos, e amores!</h4>
-		    <h4>Baladas? Shows? Aqui você encontra o que procura! Faça já seu cadastro! </h4>
-		    
+		    <form id="cad">
+		        <label for="email"> Digite seu Email: </label> <input type = "text" for="email" size="31"> <br><br>
+		        <input type="submit" value="Recuperar senha">
+		    </form>
 		</section>
 		
 		<!--<aside id="lateral">
